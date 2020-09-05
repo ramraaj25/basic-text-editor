@@ -6,6 +6,8 @@
  */
 
 
+
+
 document.getElementById('text-input').oninput = () => {
   updateText()
 }
@@ -28,8 +30,6 @@ function updateText() {
   // CODE GOES HERE
   document.getElementById('text-output').innerText = document.getElementById('text-input').value
 }
-
-
 
 /**
  * Toggle the bold class for the output text
